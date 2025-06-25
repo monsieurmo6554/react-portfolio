@@ -272,10 +272,10 @@ function App() {
               <a href="https://github.com/monsieurmo6554" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com/in/hammedogunrinola" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/hammed-ogunrinola" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:hammedogunrinola@gmail.com" className="social-link">
+              <a href="mailto:hammedogunrinola@yahoo.com" className="social-link">
                 <Mail size={20} />
               </a>
             </div>

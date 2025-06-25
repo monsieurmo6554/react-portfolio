@@ -1,8 +1,8 @@
-# 🚀 React Portfolio Website
+# 🚀 Hammed Ogunrinola - React Portfolio Website
 
 A modern, responsive portfolio website built with React and Vite, showcasing my skills as a React developer. This project demonstrates proficiency in modern web development technologies and best practices.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/646cff/ffffff?text=Portfolio+Website)
+![Portfolio Preview](https://via.placeholder.com/800x400/646cff/ffffff?text=Hammed+Ogunrinola+Portfolio)
 
 ## ✨ Features
 
@@ -17,7 +17,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: React 19
+- **Frontend Framework**: React 18
 - **Build Tool**: Vite
 - **Styling**: Modern CSS with CSS Variables for theming
 - **Icons**: Lucide React
@@ -35,7 +35,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/react-portfolio.git
+   git clone https://github.com/monsieurmo6554/react-portfolio.git
    cd react-portfolio
    ```
 
@@ -75,30 +75,37 @@ The portfolio is designed to provide an optimal viewing experience across a wide
 - **Tablet**: Adapted grid layouts and touch-friendly interactions
 - **Mobile**: Optimized for smaller screens with collapsible navigation
 
-## 🎨 Customization
+## 🎨 Portfolio Sections
 
-### Personal Information
+### 1. **Hero Section**
+- Personal introduction and professional title
+- Call-to-action buttons for easy navigation
+- Gradient text effects and modern typography
 
-Update the following in `src/App.jsx`:
+### 2. **About Section** 
+- Professional background and expertise
+- What I do and my development approach
+- Skills and experience overview
 
-- **Personal details** in the hero section
-- **Skills array** to match your expertise
-- **Projects array** with your actual projects
-- **Contact information** and social links
+### 3. **Skills Section**
+- Technical skills with interactive icons
+- Modern technologies I work with:
+  - React & JavaScript/TypeScript
+  - Node.js & Express
+  - MongoDB & PostgreSQL
+  - Git & REST APIs
+  - React Native
 
-### Styling
+### 4. **Projects Section**
+- Featured projects with descriptions
+- Technology stacks used
+- Links to GitHub repositories and live demos
+- Clean project cards with hover effects
 
-- **Colors**: Modify CSS variables in `src/index.css`
-- **Typography**: Update font families and sizes
-- **Animations**: Customize transitions and effects in `src/App.css`
-
-### Content Sections
-
-1. **Hero Section**: Introduction and call-to-action buttons
-2. **About Section**: Personal background and what you do
-3. **Skills Section**: Technical skills with icons
-4. **Projects Section**: Featured projects with live demos and source code
-5. **Contact Section**: Contact form and social links
+### 5. **Contact Section**
+- Contact form for direct communication
+- Social media links
+- Professional email contact
 
 ## 🌟 Key Highlights for Recruiters
 
@@ -106,7 +113,7 @@ Update the following in `src/App.jsx`:
 - **Clean Architecture**: Well-organized component structure
 - **Modern JavaScript**: ES6+ features and React hooks
 - **Best Practices**: Proper state management and lifecycle methods
-- **Performance**: Optimized rendering and lazy loading
+- **Performance**: Optimized rendering and smooth animations
 
 ### Professional Skills Demonstrated
 - **React Development**: Functional components, hooks, and state management
@@ -123,7 +130,7 @@ Update the following in `src/App.jsx`:
 ## 📂 Project Structure
 
 ```
-portfolio-website/
+react-portfolio/
 ├── public/
 │   ├── vite.svg
 │   └── ...
@@ -171,7 +178,7 @@ portfolio-website/
 
 2. Add to `package.json` scripts:
    ```json
-   "homepage": "https://yourusername.github.io/react-portfolio",
+   "homepage": "https://monsieurmo6554.github.io/react-portfolio",
    "predeploy": "npm run build",
    "deploy": "gh-pages -d dist"
    ```
@@ -186,7 +193,7 @@ portfolio-website/
 - **Vite Build Tool**: Fast development and optimized production builds
 - **CSS Variables**: Efficient theming without JavaScript overhead
 - **Semantic HTML**: Proper document structure for better SEO
-- **Lazy Loading**: Images and components loaded on demand
+- **Optimized Images**: Efficient loading and rendering
 - **Minification**: Compressed CSS and JavaScript for faster loading
 
 ## 🎯 Browser Support
@@ -197,13 +204,26 @@ portfolio-website/
 - Edge (latest)
 - Mobile browsers
 
-## 📞 Contact
+## 📞 Contact Information
 
 Feel free to reach out if you have any questions or would like to discuss opportunities:
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: [hammedogunrinola@yahoo.com](mailto:hammedogunrinola@yahoo.com)
+- **LinkedIn**: [linkedin.com/in/hammed-ogunrinola](https://linkedin.com/in/hammed-ogunrinola)
+- **GitHub**: [github.com/monsieurmo6554](https://github.com/monsieurmo6554)
+- **Portfolio**: [Live Portfolio Website](https://your-portfolio-url.com)
+
+## 🏆 About Me
+
+I'm Hammed Ogunrinola, a passionate React developer with expertise in modern web technologies. I specialize in creating responsive, user-friendly applications that deliver exceptional user experiences. This portfolio demonstrates my skills in:
+
+- **Frontend Development**: React, JavaScript, TypeScript, CSS
+- **Backend Integration**: Node.js, Express, API development
+- **Database Management**: MongoDB, PostgreSQL
+- **Development Tools**: Git, Vite, ESLint, npm
+- **UI/UX Design**: Responsive design, modern CSS, accessibility
+
+I'm actively seeking opportunities as a React Developer where I can contribute to innovative projects and continue growing my technical skills.
 
 ## 📄 License
 
@@ -227,4 +247,6 @@ While this is a personal portfolio, I welcome suggestions and improvements:
 
 ---
 
-Built with ❤️ by [Your Name] using React & Vite
+**Built with ❤️ by Hammed Ogunrinola using React & Vite**
+
+*Ready to hire? Let's build something amazing together!* 🚀
