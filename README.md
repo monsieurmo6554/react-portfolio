@@ -94,10 +94,12 @@ The portfolio is designed to provide an optimal viewing experience across a wide
   - Node.js & Express
   - MongoDB & PostgreSQL
   - Git & REST APIs
-  - React Native
+  - React Native & Capacitor
+  - Mobile App Development
+  - Deployment & DevOps
 
 ### 4. **Projects Section**
-- Featured projects with descriptions
+- Featured projects including mobile applications
 - Technology stacks used
 - Links to GitHub repositories and live demos
 - Clean project cards with hover effects
@@ -156,7 +158,9 @@ react-portfolio/
 
 ## 🌐 Deployment
 
-### Netlify (Recommended)
+### Netlify (Recommended & Experienced)
+
+Since you already have experience with Netlify:
 
 1. Connect your GitHub repository to Netlify
 2. Set build command: `npm run build`
@@ -168,6 +172,14 @@ react-portfolio/
 1. Import your GitHub repository to Vercel
 2. Vercel will automatically detect the Vite configuration
 3. Deploy with zero configuration
+
+### Mobile App Deployment
+
+For Capacitor mobile apps:
+
+1. **iOS**: Build and deploy to App Store Connect
+2. **Android**: Build and deploy to Google Play Console
+3. **Progressive Web App**: Deploy web version with offline capabilities
 
 ### GitHub Pages
 
@@ -215,15 +227,17 @@ Feel free to reach out if you have any questions or would like to discuss opport
 
 ## 🏆 About Me
 
-I'm Hammed Ogunrinola, a passionate React developer with expertise in modern web technologies. I specialize in creating responsive, user-friendly applications that deliver exceptional user experiences. This portfolio demonstrates my skills in:
+I'm Hammed Ogunrinola, a passionate full-stack developer with expertise in React and cross-platform mobile app development. I specialize in creating responsive, user-friendly applications that deliver exceptional user experiences across web and mobile platforms. This portfolio demonstrates my skills in:
 
 - **Frontend Development**: React, JavaScript, TypeScript, CSS
+- **Mobile App Development**: Capacitor, React Native, cross-platform development
 - **Backend Integration**: Node.js, Express, API development
 - **Database Management**: MongoDB, PostgreSQL
 - **Development Tools**: Git, Vite, ESLint, npm
+- **Deployment & DevOps**: Complete deployment pipeline experience, Netlify, app store deployment
 - **UI/UX Design**: Responsive design, modern CSS, accessibility
 
-I'm actively seeking opportunities as a React Developer where I can contribute to innovative projects and continue growing my technical skills.
+I have hands-on experience with the complete development lifecycle from conception to deployment, including mobile app deployment to app stores. I'm actively seeking opportunities as a React/Mobile Developer where I can contribute to innovative projects and continue growing my technical skills.
 
 ## 📄 License
 

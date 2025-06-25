@@ -50,10 +50,19 @@ function App() {
     { name: 'PostgreSQL', icon: Database },
     { name: 'Git', icon: GitBranch },
     { name: 'REST APIs', icon: Globe },
-    { name: 'React Native', icon: Smartphone }
+    { name: 'React Native', icon: Smartphone },
+    { name: 'Capacitor', icon: Smartphone },
+    { name: 'Mobile Apps', icon: Smartphone }
   ];
 
   const projects = [
+    {
+      title: 'Cross-Platform Mobile App',
+      description: 'A mobile application built with React and Capacitor, featuring native device integration and cross-platform deployment.',
+      tech: ['React', 'Capacitor', 'TypeScript', 'Ionic'],
+      github: 'https://github.com/monsieurmo6554/mobile-app',
+      demo: 'https://your-mobile-app-demo.com'
+    },
     {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce application with user authentication, product management, and payment integration.',
@@ -67,13 +76,6 @@ function App() {
       tech: ['React', 'TypeScript', 'Socket.io', 'Express'],
       github: 'https://github.com/monsieurmo6554/task-manager',
       demo: 'https://your-task-manager-demo.com'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather application with location-based forecasts and interactive charts.',
-      tech: ['React', 'Chart.js', 'Weather API', 'CSS Grid'],
-      github: 'https://github.com/monsieurmo6554/weather-dashboard',
-      demo: 'https://your-weather-demo.com'
     }
   ];
 
@@ -148,14 +150,14 @@ function App() {
               <div>
                 <h3>Who I Am</h3>
                 <p style={{ marginBottom: '1.5rem' }}>
-                  I'm a passionate React developer with a strong foundation in modern web technologies. 
-                  I enjoy building scalable applications that solve real-world problems and create 
-                  exceptional user experiences.
+                  I'm a passionate full-stack developer with expertise in React and mobile app development. 
+                  I enjoy building scalable web and mobile applications that solve real-world problems and create 
+                  exceptional user experiences across all platforms.
                 </p>
                 <p style={{ marginBottom: '1.5rem' }}>
-                  My journey in web development started with curiosity about how websites work, 
-                  and has evolved into a passion for creating efficient, maintainable, and 
-                  user-friendly applications.
+                  My journey in development started with web technologies and has expanded to include cross-platform 
+                  mobile app development using Capacitor. I have hands-on experience with the complete development 
+                  lifecycle from conception to deployment.
                 </p>
                 <p>
                   When I'm not coding, you can find me exploring new technologies, contributing to 
@@ -166,16 +168,20 @@ function App() {
                 <h3>What I Do</h3>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Frontend Development</strong><br />
-                    Building responsive and interactive user interfaces with React, JavaScript, and modern CSS
+                    <strong>Web Development</strong><br />
+                    Building responsive and interactive web applications with React, JavaScript, and modern frameworks
+                  </li>
+                  <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
+                    <strong>Mobile App Development</strong><br />
+                    Creating cross-platform mobile applications using Capacitor with native device integration
                   </li>
                   <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
                     <strong>Backend Integration</strong><br />
-                    Connecting frontend applications with APIs and managing application state
+                    Connecting applications with APIs and managing application state across platforms
                   </li>
                   <li style={{ padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Performance Optimization</strong><br />
-                    Ensuring applications are fast, accessible, and optimized for all devices
+                    <strong>Deployment & DevOps</strong><br />
+                    Complete deployment pipeline experience from development to production across web and mobile platforms
                   </li>
                 </ul>
               </div>
