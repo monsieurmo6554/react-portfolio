@@ -58,21 +58,21 @@ function App() {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce application with user authentication, product management, and payment integration.',
       tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com/yourusername/ecommerce-platform',
+      github: 'https://github.com/monsieurmo6554/ecommerce-platform',
       demo: 'https://your-ecommerce-demo.com'
     },
     {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates and team features.',
       tech: ['React', 'TypeScript', 'Socket.io', 'Express'],
-      github: 'https://github.com/yourusername/task-manager',
+      github: 'https://github.com/monsieurmo6554/task-manager',
       demo: 'https://your-task-manager-demo.com'
     },
     {
       title: 'Weather Dashboard',
       description: 'A responsive weather application with location-based forecasts and interactive charts.',
       tech: ['React', 'Chart.js', 'Weather API', 'CSS Grid'],
-      github: 'https://github.com/yourusername/weather-dashboard',
+      github: 'https://github.com/monsieurmo6554/weather-dashboard',
       demo: 'https://your-weather-demo.com'
     }
   ];
@@ -91,7 +91,7 @@ function App() {
         <nav className="nav">
           <div className="container nav-container">
             <a href="#home" className="nav-brand" onClick={(e) => {e.preventDefault(); scrollToSection('home');}}>
-              Portfolio
+              Hammed Portfolio
             </a>
             <ul className="nav-links">
               <li>
@@ -123,7 +123,7 @@ function App() {
           <div className="container">
             <div className="hero-content">
               <p className="hero-subtitle">Hello, I'm</p>
-              <h1 className="hero-title">React Developer</h1>
+              <h1 className="hero-title">Hammed Ogunrinola</h1>
               <p className="hero-description">
                 I create modern, responsive web applications using React and cutting-edge technologies. 
                 Passionate about clean code, user experience, and continuous learning.
@@ -269,18 +269,18 @@ function App() {
         <footer className="footer">
           <div className="container">
             <div className="social-links">
-              <a href="https://github.com/yourusername" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/monsieurmo6554" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com/in/yourusername" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/hammedogunrinola" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:your.email@example.com" className="social-link">
+              <a href="mailto:hammedogunrinola@gmail.com" className="social-link">
                 <Mail size={20} />
               </a>
             </div>
             <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-              © 2024 Portfolio. Built with React & Vite.
+              © 2024 Hammed Ogunrinola. Built with React & Vite.
             </p>
           </div>
         </footer>
