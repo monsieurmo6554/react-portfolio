@@ -71,13 +71,6 @@ function App() {
       github: 'https://github.com/monsieurmo6554/Soothly',
       demo: 'https://play.google.com/store/apps/details?id=com.soothly.app',
       appStore: 'https://apps.apple.com/app/id6744158639'
-    },
-    {
-      title: 'Web Portfolio Project',
-      description: 'This portfolio website - a responsive React application showcasing modern web development skills and deployment practices.',
-      tech: ['React', 'Vite', 'CSS Variables', 'Netlify'],
-      github: 'https://github.com/monsieurmo6554/react-portfolio',
-      demo: 'https://hammed-portfolio.netlify.app'
     }
   ];
 
@@ -98,11 +91,6 @@ function App() {
               Hammed Portfolio
             </a>
             <ul className="nav-links">
-              <li>
-                <a href="#about" className="nav-link" onClick={(e) => {e.preventDefault(); scrollToSection('about');}}>
-                  About
-                </a>
-              </li>
               <li>
                 <a href="#skills" className="nav-link" onClick={(e) => {e.preventDefault(); scrollToSection('skills');}}>
                   Skills
@@ -145,52 +133,7 @@ function App() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section id="about" className="section">
-          <div className="container">
-            <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>About Me</h2>
-            <div className="grid grid-2">
-              <div>
-                <h3>Who I Am</h3>
-                <p style={{ marginBottom: '1.5rem' }}>
-                  I'm a passionate full-stack developer with proven expertise in React and mobile app development. 
-                  I have successfully published 2 mobile applications on both Google Play Store and Apple App Store, 
-                  demonstrating my ability to deliver production-ready solutions that real users download and use.
-                </p>
-                <p style={{ marginBottom: '1.5rem' }}>
-                  My experience spans the complete development lifecycle - from initial concept and development 
-                  using React + Capacitor, through testing and optimization, to final deployment and app store approval. 
-                  I understand the intricacies of cross-platform development and the requirements for successful app launches.
-                </p>
-                <p>
-                  When I'm not coding, you can find me exploring new technologies, contributing to 
-                  open source projects, or sharing knowledge with the developer community.
-                </p>
-              </div>
-              <div>
-                <h3>What I Do</h3>
-                <ul style={{ listStyle: 'none', padding: 0 }}>
-                  <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Web Development</strong><br />
-                    Building responsive and interactive web applications with React, JavaScript, and modern frameworks
-                  </li>
-                  <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Mobile App Development</strong><br />
-                    Creating cross-platform mobile applications using Capacitor with native device integration
-                  </li>
-                  <li style={{ marginBottom: '1rem', padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Backend Integration</strong><br />
-                    Connecting applications with APIs and managing application state across platforms
-                  </li>
-                  <li style={{ padding: '1rem', background: 'var(--surface-color)', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
-                    <strong>Deployment & DevOps</strong><br />
-                    Complete deployment pipeline experience from development to production across web and mobile platforms
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
         {/* Skills Section */}
         <section id="skills" className="section" style={{ background: 'var(--surface-color)' }}>
