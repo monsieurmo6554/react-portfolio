@@ -245,10 +245,12 @@ function App() {
                           </a>
                         </>
                       ) : (
-                        <a href={project.demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                          <ExternalLink size={16} />
-                          Demo
-                        </a>
+                        project.title !== 'Web Portfolio Project' && (
+                          <a href={project.demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <ExternalLink size={16} />
+                            Demo
+                          </a>
+                        )
                       )}
                     </div>
                   </div>
