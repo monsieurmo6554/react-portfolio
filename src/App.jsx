@@ -57,20 +57,20 @@ function App() {
 
   const projects = [
     {
-      title: 'Mobile App #1 - Published',
-      description: 'A production mobile application built with React + Capacitor, successfully deployed and available on both Google Play Store and Apple App Store.',
-      tech: ['React', 'Capacitor', 'TypeScript', 'Native APIs'],
-      github: 'https://github.com/monsieurmo6554/mobile-app-1',
-      demo: 'https://play.google.com/store/apps/details?id=com.yourapp1',
-      appStore: 'https://apps.apple.com/app/your-app-1'
+      title: 'NaijaSoundHub - Music App',
+      description: 'A music streaming application built with React + Capacitor, successfully published on both Google Play Store and Apple App Store with real users and reviews.',
+      tech: ['React', 'Capacitor', 'TypeScript', 'Audio APIs'],
+      github: 'https://github.com/monsieurmo6554/NaijaSoundHub',
+      demo: 'https://play.google.com/store/apps/details?id=com.naijasoundhub.app',
+      appStore: 'https://apps.apple.com/app/id6738930833'
     },
     {
-      title: 'Mobile App #2 - Published',
-      description: 'Second production mobile application with native device integration, cross-platform deployment, and live users on both major app stores.',
-      tech: ['React', 'Capacitor', 'JavaScript', 'Ionic'],
-      github: 'https://github.com/monsieurmo6554/mobile-app-2',
-      demo: 'https://play.google.com/store/apps/details?id=com.yourapp2',
-      appStore: 'https://apps.apple.com/app/your-app-2'
+      title: 'Soothly - Wellness App',
+      description: 'A wellness and relaxation mobile application with native device integration, cross-platform deployment, and active users on both major app stores.',
+      tech: ['React', 'Capacitor', 'JavaScript', 'Native APIs'],
+      github: 'https://github.com/monsieurmo6554/Soothly',
+      demo: 'https://play.google.com/store/apps/details?id=com.soothly.app',
+      appStore: 'https://apps.apple.com/app/id6744158639'
     },
     {
       title: 'Web Portfolio Project',
@@ -129,7 +129,7 @@ function App() {
               <p className="hero-subtitle">Hello, I'm</p>
               <h1 className="hero-title">Hammed Ogunrinola</h1>
               <p className="hero-description">
-                Full-stack developer with 2 published mobile apps on Play Store & App Store. 
+                Full-stack developer with 2 published mobile apps: NaijaSoundHub (music streaming) and Soothly (wellness app) - both live on Play Store & App Store. 
                 I create modern web and mobile applications using React, Capacitor, and cutting-edge technologies. 
                 Passionate about clean code, user experience, and delivering production-ready solutions.
               </p>

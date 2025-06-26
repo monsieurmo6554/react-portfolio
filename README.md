@@ -6,11 +6,19 @@ A modern, responsive portfolio website showcasing my skills as a full-stack deve
 
 ## 🏆 **Published Mobile Apps Achievement**
 
-✅ **2 Live Mobile Applications** currently available for download on:
-- 📱 **Google Play Store** - Active users and reviews
-- 🍎 **Apple App Store** - Successfully passed App Store review process  
-- 🔧 Built with **React + Capacitor** for cross-platform deployment
-- 🚀 Complete development lifecycle experience from concept to store approval
+✅ **2 Live Mobile Applications** currently available for download:
+
+### 🎵 **NaijaSoundHub - Music Streaming App**
+- 📱 [Google Play Store](https://play.google.com/store/apps/details?id=com.naijasoundhub.app)
+- 🍎 [Apple App Store](https://apps.apple.com/app/id6738930833)
+- 🔧 Built with React + Capacitor + Audio APIs
+
+### 🧘 **Soothly - Wellness & Relaxation App**  
+- 📱 [Google Play Store](https://play.google.com/store/apps/details?id=com.soothly.app)
+- 🍎 [Apple App Store](https://apps.apple.com/app/id6744158639)
+- 🔧 Built with React + Capacitor + Native APIs
+
+**🚀 Both apps successfully passed app store review processes and are actively used by real customers!**
 
 ## ✨ Features
 
