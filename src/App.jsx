@@ -57,25 +57,27 @@ function App() {
 
   const projects = [
     {
-      title: 'Cross-Platform Mobile App',
-      description: 'A mobile application built with React and Capacitor, featuring native device integration and cross-platform deployment.',
-      tech: ['React', 'Capacitor', 'TypeScript', 'Ionic'],
-      github: 'https://github.com/monsieurmo6554/mobile-app',
-      demo: 'https://your-mobile-app-demo.com'
+      title: 'Mobile App #1 - Published',
+      description: 'A production mobile application built with React + Capacitor, successfully deployed and available on both Google Play Store and Apple App Store.',
+      tech: ['React', 'Capacitor', 'TypeScript', 'Native APIs'],
+      github: 'https://github.com/monsieurmo6554/mobile-app-1',
+      demo: 'https://play.google.com/store/apps/details?id=com.yourapp1',
+      appStore: 'https://apps.apple.com/app/your-app-1'
     },
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application with user authentication, product management, and payment integration.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com/monsieurmo6554/ecommerce-platform',
-      demo: 'https://your-ecommerce-demo.com'
+      title: 'Mobile App #2 - Published',
+      description: 'Second production mobile application with native device integration, cross-platform deployment, and live users on both major app stores.',
+      tech: ['React', 'Capacitor', 'JavaScript', 'Ionic'],
+      github: 'https://github.com/monsieurmo6554/mobile-app-2',
+      demo: 'https://play.google.com/store/apps/details?id=com.yourapp2',
+      appStore: 'https://apps.apple.com/app/your-app-2'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team features.',
-      tech: ['React', 'TypeScript', 'Socket.io', 'Express'],
-      github: 'https://github.com/monsieurmo6554/task-manager',
-      demo: 'https://your-task-manager-demo.com'
+      title: 'Web Portfolio Project',
+      description: 'This portfolio website - a responsive React application showcasing modern web development skills and deployment practices.',
+      tech: ['React', 'Vite', 'CSS Variables', 'Netlify'],
+      github: 'https://github.com/monsieurmo6554/react-portfolio',
+      demo: 'https://hammed-portfolio.netlify.app'
     }
   ];
 
@@ -127,12 +129,13 @@ function App() {
               <p className="hero-subtitle">Hello, I'm</p>
               <h1 className="hero-title">Hammed Ogunrinola</h1>
               <p className="hero-description">
-                I create modern, responsive web applications using React and cutting-edge technologies. 
-                Passionate about clean code, user experience, and continuous learning.
+                Full-stack developer with 2 published mobile apps on Play Store & App Store. 
+                I create modern web and mobile applications using React, Capacitor, and cutting-edge technologies. 
+                Passionate about clean code, user experience, and delivering production-ready solutions.
               </p>
               <div className="hero-actions">
                 <a href="#projects" className="btn btn-primary" onClick={(e) => {e.preventDefault(); scrollToSection('projects');}}>
-                  View My Work
+                  View My Apps
                 </a>
                 <a href="#contact" className="btn btn-secondary" onClick={(e) => {e.preventDefault(); scrollToSection('contact');}}>
                   Get In Touch
@@ -150,14 +153,14 @@ function App() {
               <div>
                 <h3>Who I Am</h3>
                 <p style={{ marginBottom: '1.5rem' }}>
-                  I'm a passionate full-stack developer with expertise in React and mobile app development. 
-                  I enjoy building scalable web and mobile applications that solve real-world problems and create 
-                  exceptional user experiences across all platforms.
+                  I'm a passionate full-stack developer with proven expertise in React and mobile app development. 
+                  I have successfully published 2 mobile applications on both Google Play Store and Apple App Store, 
+                  demonstrating my ability to deliver production-ready solutions that real users download and use.
                 </p>
                 <p style={{ marginBottom: '1.5rem' }}>
-                  My journey in development started with web technologies and has expanded to include cross-platform 
-                  mobile app development using Capacitor. I have hands-on experience with the complete development 
-                  lifecycle from conception to deployment.
+                  My experience spans the complete development lifecycle - from initial concept and development 
+                  using React + Capacitor, through testing and optimization, to final deployment and app store approval. 
+                  I understand the intricacies of cross-platform development and the requirements for successful app launches.
                 </p>
                 <p>
                   When I'm not coding, you can find me exploring new technologies, contributing to 
@@ -230,10 +233,23 @@ function App() {
                         <Github size={16} />
                         Code
                       </a>
-                      <a href={project.demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                        <ExternalLink size={16} />
-                        Demo
-                      </a>
+                      {project.appStore ? (
+                        <>
+                          <a href={project.demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <Smartphone size={16} />
+                            Play Store
+                          </a>
+                          <a href={project.appStore} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <Smartphone size={16} />
+                            App Store
+                          </a>
+                        </>
+                      ) : (
+                        <a href={project.demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink size={16} />
+                          Demo
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

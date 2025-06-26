@@ -1,8 +1,16 @@
 # 🚀 Hammed Ogunrinola - React Portfolio Website
 
-A modern, responsive portfolio website built with React and Vite, showcasing my skills as a React developer. This project demonstrates proficiency in modern web development technologies and best practices.
+A modern, responsive portfolio website showcasing my skills as a full-stack developer with **2 published mobile apps** on Google Play Store and Apple App Store. This portfolio demonstrates proficiency in modern web development technologies and real-world production experience.
 
 ![Portfolio Preview](https://via.placeholder.com/800x400/646cff/ffffff?text=Hammed+Ogunrinola+Portfolio)
+
+## 🏆 **Published Mobile Apps Achievement**
+
+✅ **2 Live Mobile Applications** currently available for download on:
+- 📱 **Google Play Store** - Active users and reviews
+- 🍎 **Apple App Store** - Successfully passed App Store review process  
+- 🔧 Built with **React + Capacitor** for cross-platform deployment
+- 🚀 Complete development lifecycle experience from concept to store approval
 
 ## ✨ Features
 
@@ -227,17 +235,24 @@ Feel free to reach out if you have any questions or would like to discuss opport
 
 ## 🏆 About Me
 
-I'm Hammed Ogunrinola, a passionate full-stack developer with expertise in React and cross-platform mobile app development. I specialize in creating responsive, user-friendly applications that deliver exceptional user experiences across web and mobile platforms. This portfolio demonstrates my skills in:
+I'm Hammed Ogunrinola, a **proven full-stack developer** with real-world production experience. My most significant achievement is having **2 mobile applications live and available for download** on both Google Play Store and Apple App Store, built using React + Capacitor.
 
+### 📱 **Production Experience Highlights:**
+- **App Store Success**: Successfully navigated the entire app store approval process for both platforms
+- **Real Users**: Apps are actively downloaded and used by real customers
+- **Cross-Platform Expertise**: Single codebase deployed to multiple platforms
+- **Complete Lifecycle**: From initial development to production deployment and maintenance
+
+### 💻 **Technical Skills Demonstrated:**
 - **Frontend Development**: React, JavaScript, TypeScript, CSS
 - **Mobile App Development**: Capacitor, React Native, cross-platform development
 - **Backend Integration**: Node.js, Express, API development
 - **Database Management**: MongoDB, PostgreSQL
 - **Development Tools**: Git, Vite, ESLint, npm
-- **Deployment & DevOps**: Complete deployment pipeline experience, Netlify, app store deployment
+- **Production Deployment**: Complete deployment pipeline experience, Netlify, App Store deployment
 - **UI/UX Design**: Responsive design, modern CSS, accessibility
 
-I have hands-on experience with the complete development lifecycle from conception to deployment, including mobile app deployment to app stores. I'm actively seeking opportunities as a React/Mobile Developer where I can contribute to innovative projects and continue growing my technical skills.
+I'm actively seeking opportunities as a **React/Mobile Developer** where I can bring my proven ability to deliver production-ready applications that real users love and download from app stores.
 
 ## 📄 License
 
