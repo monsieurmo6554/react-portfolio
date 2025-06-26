@@ -263,26 +263,12 @@ function App() {
           <div className="container">
             <h2 style={{ textAlign: 'center', marginBottom: '3rem' }}>Get In Touch</h2>
             <div className="contact-form">
-              <form onSubmit={(e) => e.preventDefault()}>
-                <div className="form-group">
-                  <label htmlFor="name" className="form-label">Name</label>
-                  <input type="text" id="name" className="form-input" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email" className="form-label">Email</label>
-                  <input type="email" id="email" className="form-input" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message" className="form-label">Message</label>
-                  <textarea id="message" className="form-textarea" required></textarea>
-                </div>
-                <div style={{ textAlign: 'center' }}>
-                  <button type="submit" className="btn btn-primary">
-                    <Mail size={16} />
-                    Send Message
-                  </button>
-                </div>
-              </form>
+              <div style={{ textAlign: 'center' }}>
+                <button type="button" className="btn btn-primary">
+                  <Mail size={16} />
+                  hammedogunrinola@yahoo.com
+                </button>
+              </div>
             </div>
           </div>
         </section>
@@ -294,7 +280,7 @@ function App() {
               <a href="https://github.com/monsieurmo6554" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com/in/hammed-ogunrinola" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/hammed-ogunrinola-b40303233/" className="social-link" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:hammedogunrinola@yahoo.com" className="social-link">
@@ -302,7 +288,7 @@ function App() {
               </a>
             </div>
             <p style={{ color: 'var(--text-secondary)', margin: 0 }}>
-              © 2024 Hammed Ogunrinola. Built with React & Vite.
+              © 2025 Hammed Ogunrinola. Built with React & Vite.
             </p>
           </div>
         </footer>
